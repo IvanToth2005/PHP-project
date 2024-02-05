@@ -10,7 +10,8 @@ body
 }
 
 .telepulesek {
-    display: block; 
+    display: block;
+    width: 600px; 
 }
 
 .telepules {
@@ -18,4 +19,11 @@ body
     padding: 10px;
     margin: 5px 0; 
     border-radius: 5px;
+    width: 200px;
+}
+
+
+.picture {
+    max-width: 600px;
+    float: right;
 }
