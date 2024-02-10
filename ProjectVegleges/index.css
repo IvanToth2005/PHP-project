@@ -1,0 +1,73 @@
+
+h1
+{
+    text-align: center;
+    font-size: 300%;
+    font-weight: bold;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: grey;
+}
+
+.container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.county-form {
+    margin-bottom: 20px;
+}
+
+#cityList, #countyImageContainer {
+    margin-top: 20px;
+    display: none;
+}
+
+.city-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.city {
+    width: calc(30% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+#countyImageContainer img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+#cityList {
+    background-color: #eaeaea; 
+    padding: 10px;
+}
+
+.delete-container {
+    margin-top: 10px; /* Változtasd meg szükség esetén a megfelelő helyre */
+}
+.deleteBtn {
+    line-height: 26px; 
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
